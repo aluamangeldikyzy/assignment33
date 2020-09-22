@@ -1,0 +1,103 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #C4E8AD;
+}
+
+#container{
+  position: relative;
+  top: 100px;
+  width: 500px;
+}
+
+#content-box1{
+  padding: 30px;
+  margin-bottom: 30px;
+  background: url("birman-cat-profile.jpg");
+}
+#content-box2{
+  padding: 30px;
+  margin-bottom: 30px;
+  background: url("cat_norwegian_forest.jpg");
+}
+#content-box3{
+  padding: 30px;
+  margin-bottom: 30px;
+  background: url("90.jpeg");
+}
+#content-box4{
+  padding: 30px;
+  margin-bottom: 30px;
+  background: url("British-Shorthair.jpg");
+}
+
+#content-box5{
+  padding: 30px;
+  margin-bottom: 30px;
+  background: url("9.jpeg");
+}
+
+ul{
+  position: relative;
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+}
+a{
+  text-decoration: none;
+  background: #FFF;
+  padding: 5px;
+  height: 30px;
+}
+a:hover{
+  background-color: #C4E8AD;
+}
+p1 {
+  display: none;
+  background-color: yellow;
+  padding: 10px;
+  margin: 20px;
+}
+#content-box1:hover p1 {
+  display: block;
+}
+p2 {
+  display: none;
+  background-color: yellow;
+  padding: 10px;
+  margin: 20px;
+}
+#content-box2:hover p2 {
+  display: block;
+}
+p3 {
+  display: none;
+  background-color: yellow;
+  padding: 10px;
+  margin: 20px;
+}
+
+#content-box3:hover p3 {
+  display: block;
+}
+p4 {
+  display: none;
+  background-color: yellow;
+  padding: 10px;
+}
+
+#content-box4:hover p4 {
+  display: block;
+}
+p5 {
+  display: none;
+  background-color: yellow;
+  padding: 10px;
+  margin: 20px;
+}
+
+#content-box5:hover p5 {
+  display: block;
+}
